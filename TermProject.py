@@ -77,7 +77,6 @@ def quiz(teams, cities, team_city_map, num_questions):
 def show_results(score, num_questions, missed, team_city_map):
     print(f"Final Score: {score} / {num_questions}")
     print(f"Accuracy: {(score / num_questions) * 100:.1f}%")
-
     if missed:
         print("\nTeams you missed:")
         for team in missed:
